@@ -13,7 +13,7 @@ Using PostgreSQL and PgAdmin in Docker containers offers several benefits:
      - Follow the instructions to install Docker: https://docs.docker.com/engine/install/
 2. **Run the PostgreSQL Docker container**: Run a PostgreSQL container with a simple docker run command. Open the terminal and run the following:
    ```bash
-   docker run --name ostgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
+   docker run --name postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
    ```
    - `--name postgres`: Name the container.
    - `-e POSTGRES_PASSWORD=password`: Set the PostgreSQL password.
